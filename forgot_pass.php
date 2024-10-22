@@ -26,7 +26,7 @@ require_once "dbconnection.php";
             echo "<script>alert('Password changed Successfull.');window.location.href='login.php'</script>";
             
             } else {
-                echo "<script>alert('Lag gayi')</script>";
+                echo "<script>alert('password is not change.')</script>";
             }
         
     }
